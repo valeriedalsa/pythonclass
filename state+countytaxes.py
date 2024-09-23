@@ -4,9 +4,9 @@ def main():
     state_sales_tax = original * 0.05
     total = state_sales_tax + county_sales_tax + original
     print(f'''Your purchase was = ${original:,.2f} 
-    Your state sales tax for this purchase is = ${state_sales_tax:,.2f}
-    Your county tax is = ${county_sales_tax:.2f}
-    Your total is = ${total:,.2f}''')
+Your state sales tax for this purchase is = ${state_sales_tax:,.2f}
+Your county tax is = ${county_sales_tax:.2f}
+Your total is = ${total:,.2f}''')
 main()
 
                     
